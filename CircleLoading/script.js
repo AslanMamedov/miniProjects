@@ -1,0 +1,44 @@
+function getRandom(min, max) {
+	return Math.floor(Math.random( (min + max)) * min);
+}
+
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));
+console.log(getRandom(10, 20));

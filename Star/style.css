@@ -1,0 +1,33 @@
+.rating {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.rating__item {
+  color: #dcdcdc;
+  cursor: pointer;
+  font-size: 100px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.rating__item:hover {
+  color: #989898;
+}
+
+.rating__item:hover ~ .rating__item {
+  color: #989898;
+}
+
+.rating[data-total-value='1'] .rating__item:nth-child(n + 5),
+.rating[data-total-value='2'] .rating__item:nth-child(n + 4),
+.rating[data-total-value='3'] .rating__item:nth-child(n + 3),
+.rating[data-total-value='4'] .rating__item:nth-child(n + 2),
+.rating[data-total-value='5'] .rating__item:nth-child(n + 1) {
+  color: orange;
+}

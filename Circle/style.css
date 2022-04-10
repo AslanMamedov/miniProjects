@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.progress {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
+}
+
+.progress-circle {
+  stroke-dasharray: 945;
+  stroke-dashoffset: 945;
+}
+
+.loading {
+  font-size: 100px;
+}
